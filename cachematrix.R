@@ -16,7 +16,7 @@
 ## In this function, input matrix is compared to stored matrix
 ## If the same matrix exists, it's inverse is returned from the cached
 ## If the same matrix is not present, it's inverse is calculated, stored in cache and returned
-
+ab
 makeCacheMatrix <- function(ma = matrix()){
 	inv <- NULL			  ## Initiating inverse to NULL
 	set <- function(m){	  ## set function is to store the Input matrix
